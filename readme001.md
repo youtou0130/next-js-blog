@@ -29,4 +29,20 @@ postgresqlはコメントアウト
 DATABASE_URL="file:./dev.db" を追記
 
 
+// マイグレーション(テーブル作成) 
+npx prisma migrate dev --name init 
+// シード実行(ダミーデータ) 
+npx prisma db seed 
+// DBの内容を確認 
+npx prisma studio 
+// DBリセット 
+npx prisma migrate reset
 
+
+npx shadcn@latest
+
+npx shadcn@latest init
+
+npm install date-fns@^4 //日付フォー
+マット 
+npx shadcn@latest add card
