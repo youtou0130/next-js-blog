@@ -10,6 +10,8 @@ git branch -M main
 git remote add origin https://github.com/youtou0130/next-js-blog.git
 git push -u origin main
 
+git add .
+git commit -m "add search"
 
 Prisma インストール
 パスワードも扱うため暗号化のbcryptjsもイン
@@ -46,3 +48,16 @@ npx shadcn@latest init
 npm install date-fns@^4 //日付フォー
 マット 
 npx shadcn@latest add card
+
+
+インストール方法 npm install next-auth@beta 
+npm install zod@^3 
+シークレットキー生成 
+npx auth secret 
+.env.local ファイルにAUTH_SECRETが発行される 
+.envに統合
+
+
+test@example.com
+password123
+
