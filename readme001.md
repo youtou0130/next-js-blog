@@ -61,3 +61,37 @@ npx auth secret
 test@example.com
 password123
 
+
+
+Markdown関連ライブラリ
+
+npm install react-markdown@^9 remark-gfm@^4 rehype-highlight@^7 react-textarea-autosize@^8 @tailwindcss/typography@^0 
+react-markdown MarkdownをReactコンポーネントとして表示 
+remark-gfm (GitHub Flavored Markdown)対応(Markdownの拡張機能) 
+rehype-highlight コードハイライト表示 
+react-textarea-autosize textarea自動調整 
+tailwindcss/typography TailwindCSS公式プラグイン Markdownをキレ
+イにスタイリングするクラスを提供
+
+## 列の揃え方 
+| 左寄せ     | 中央揃え   | 右寄せ     | 
+|:-----------|:---------:|-----------:| 
+| 左揃えの値 | 中央の値   | 右揃えの値 | 
+| テスト1    | テスト2    | テスト3    | 
+| サンプル1  | サンプル2  | サンプル3  | 
+## チェックリストの例
+ - [ ] 未完了のタスク1
+ - [x] 完了済みのタスク2
+ - [ ] 未完了のタスク3
+```python 
+# Pythonの例 
+def greet(name): 
+    return f"Hello, {name}!" 
+print(greet("World")) 
+```
+
+
+
+npx shadcn@latest add radio-group
+
+
