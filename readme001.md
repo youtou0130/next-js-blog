@@ -95,3 +95,13 @@ print(greet("World"))
 npx shadcn@latest add radio-group
 
 
+git add .
+git commit -m "add crud"
+git push
+
+
+
+git add .
+git commit -m "add supabase setting"
+
+
